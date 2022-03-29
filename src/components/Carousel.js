@@ -20,38 +20,6 @@ function Carousel_home() {
       <div className="cover_image_small d-none">
         <img src={home_image_small} alt="" />
       </div>
-      {/* {images.map((e, i) => {
-        return (
-          <div className={`slide-container${active == i ? " active" : ""}`}>
-            <div className="slide">
-              <img style={{ width: "100%" }} src={e} alt="" />
-            </div>
-          </div>
-        );
-      })}
-
-      <div
-        id="prev"
-        className="fas fa-chevron-left"
-        onClick={() => {
-          if (active == 0) {
-            setactive(images.length - 1);
-          } else {
-            setactive(active - 1);
-          }
-        }}
-      ></div>
-      <div
-        id="next"
-        className="fas fa-chevron-right"
-        onClick={() => {
-          if (active >= images.length - 1) {
-            setactive(0);
-          } else {
-            setactive(active + 1);
-          }
-        }}
-      ></div> */}
     </section>
   );
 }

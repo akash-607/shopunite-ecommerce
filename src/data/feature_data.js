@@ -1,8 +1,3 @@
-import f_img1 from "../assets/images/f-img-1.1.png";
-import f_img2 from "../assets/images/f-img-1.2.png";
-import f_img3 from "../assets/images/f-img-1.3.png";
-import f_img4 from "../assets/images/f-img-1.4.png";
-
 let feat_data = [
   {
     name: "Asus ROG Strix G15 Gaming Laptop",
