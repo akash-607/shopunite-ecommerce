@@ -3,14 +3,14 @@ import { FaStar, FaRegStar } from "react-icons/fa";
 
 function Product({ name, org_price, fin_price, img_src, rating }) {
   return (
-    <div class="box">
+    <div className="box">
       <img src={img_src} alt="" />
-      <div class="content">
+      <div className="content">
         <h3>{name}</h3>
-        <div class="price">
+        <div className="price">
           ₹{fin_price} <span>₹{org_price}</span>
         </div>
-        <div class="stars">
+        <div className="stars">
           {[...Array(rating)].map((x, i) => (
             <FaStar
               key={i}
@@ -27,13 +27,8 @@ function Product({ name, org_price, fin_price, img_src, rating }) {
               style={{ margin: "0 .2rem" }}
             />
           ))}
-          {/* <FaStar size={18} color="orange" style={{ margin: "0 .2rem" }} />
-          <FaStar size={18} color="orange" style={{ margin: "0 .2rem" }} />
-          <FaStar size={18} color="orange" style={{ margin: "0 .2rem" }} />
-          <FaStar size={18} color="orange" style={{ margin: "0 .2rem" }} />
-          <FaStar size={18} color="orange" style={{ margin: "0 .2rem" }} /> */}
         </div>
-        <button href="#" class="btn">
+        <button href="#" className="btn">
           add to cart
         </button>
       </div>

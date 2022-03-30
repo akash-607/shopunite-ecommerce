@@ -29,7 +29,6 @@ section {
 
 .hm_root_container {
   margin: 0 auto;
-
   width: 100vw;
   max-width: 1600px;
 }
@@ -98,16 +97,6 @@ header .navbar a:hover {
   color: var(--orange);
 }
 
-header .icons a {
-  font-size: 2.5rem;
-  color: var(--black);
-  margin-left: 1.5rem;
-}
-
-header .icons a:hover {
-  color: var(--orange);
-}
-
 #menu-bar {
   font-size: 2.5rem;
   padding: 0.5rem 1.5rem;
@@ -126,38 +115,6 @@ header .icons a:hover {
   margin-top: 8.2rem;
   width: 100%;
 }
-
-.home #prev,
-.home #next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  z-index: 100;
-  height: 5rem;
-  width: 5rem;
-  line-height: 4.5rem;
-  font-size: 2rem;
-  color: var(--black);
-  border: 0.2rem solid var(--black);
-  cursor: pointer;
-  text-align: center;
-}
-
-.home #prev:hover,
-.home #next:hover {
-  color: #fff;
-  background: var(--orange);
-}
-
-.home #prev {
-  left: 3rem;
-}
-
-.home #next {
-  right: 3rem;
-}
-
 .service .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -523,15 +480,6 @@ header .icons a:hover {
     display: block;
     text-align: center;
   }
-
-  .home .slide-container .slide .image .text {
-    width: 60%;
-  }
-
-  .home #prev,
-  .home #next {
-    top: 85%;
-  }
 }
 
 .d-none {
@@ -547,11 +495,6 @@ header .icons a:hover {
   html {
     font-size: 50%;
   }
-
-  .home .slide-container .slide .image {
-    padding-bottom: 6rem;
-  }
-
   .heading {
     font-size: 3rem;
   }

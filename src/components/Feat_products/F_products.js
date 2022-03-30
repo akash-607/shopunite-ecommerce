@@ -19,11 +19,6 @@ function F_products() {
           rating={e.rating}
         />
       ))}
-      {/* <F_product />
-      <F_product />
-      <F_product />
-      <F_product />
-      <F_product /> */}
     </section>
   );
 }

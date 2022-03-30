@@ -19,7 +19,6 @@ function Navbar() {
       </nav>
 
       <div className="icons_nav">
-        {/* <a to="#" className="fas fa-heart"> */}
         <button>
           <FaHeart style={{ margin: "0 0.7rem" }} size={25} />
         </button>
@@ -29,13 +28,6 @@ function Navbar() {
         <button>
           <FaUser style={{ margin: "0 0.7rem" }} size={25} />
         </button>
-        {/* </a> */}
-        {/* <a href="#" className="fas fa-shopping-cart">
-          <FaShoppingCart />
-        </a>
-        <a href="#" className="fas fa-user">
-          <FaUser />
-        </a> */}
       </div>
     </header>
   );

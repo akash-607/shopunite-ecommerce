@@ -25,7 +25,6 @@ function F_product({
           ))}
         </div>
         <div className="big-image">
-          {/* <img src="images/f-img-1.1.png" className="big-image-1" alt=""> */}
           <img src={img_list[cur_image]} alt="" />
         </div>
       </div>
@@ -50,11 +49,6 @@ function F_product({
               style={{ margin: "0 .2rem" }}
             />
           ))}
-          {/* <FaStar  color="orange" classNameName="rat__icons" />
-          <FaStar fontSize="1.8rem" color="orange" classNameName="rat__icons" />
-          <FaStar fontSize="1.8rem" color="orange" classNameName="rat__icons" />
-          <FaStar fontSize="1.8rem" color="orange" classNameName="rat__icons" />
-          <FaStar fontSize="1.8rem" color="orange" classNameName="rat__icons" /> */}
         </div>
         <p>{description}</p>
         <div className="price">

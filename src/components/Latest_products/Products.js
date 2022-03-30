@@ -4,12 +4,12 @@ import prod_data from "../../data/product_data";
 
 function Products() {
   return (
-    <section class="products" id="products">
-      <h1 class="heading">
+    <section className="products" id="products">
+      <h1 className="heading">
         {" "}
         latest <span>products</span>{" "}
       </h1>
-      <div class="box-container">
+      <div className="box-container">
         {prod_data.map((e, i) => (
           <Product
             name={e.name}
